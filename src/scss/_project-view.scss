@@ -1,0 +1,16 @@
+.project-view {
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__frame {
+        border-radius: 32px;
+        max-height: 100%;
+        overflow-y: auto;
+        background-image: url(../img/scroll-pic.png);
+        background-repeat: no-repeat;
+        width: 1320px;//на  
+        height: 780px;//время
+    }
+}
