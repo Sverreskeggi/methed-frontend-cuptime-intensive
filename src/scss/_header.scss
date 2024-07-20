@@ -9,7 +9,7 @@
     }
 
     &__wrapper {
-        width: 690px; //Поменять на 655px после установки шрифта
+        width: 657px;
         position: relative;
     }
 
@@ -33,14 +33,13 @@
                 font-size: 20px;
                 font-weight: 400;
                 line-height: 24px;
-                display: grid;
             }
         }
     }
 
     &__hero {
         position: absolute;
-        right: -565px;
+        right: -600px;
         top: -165px;
     }
 }

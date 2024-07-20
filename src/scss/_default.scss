@@ -12,7 +12,7 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
-  font-family: 'Circle-400', sans-serif;
+  font-family: 'Circe', sans-serif;
   color: $primary;
   background-color: $white;
 }
@@ -27,6 +27,7 @@ img {
 button {
   padding: 0;
   cursor: pointer;
+  font-family: inherit;
 }
 
 a {
@@ -95,6 +96,8 @@ iframe {
     }
 
     &_promo {
+        display: inline-block;
+        height: 54px;
         font-size: 26px;
         font-weight: 700;
         line-height: 28.6px;

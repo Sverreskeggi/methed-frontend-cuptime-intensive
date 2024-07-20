@@ -14,7 +14,7 @@
     &__title {
         text-align: center;
         color: $white;
-        width: 650px;
+
         margin-bottom: 73px;
     }
 
@@ -24,6 +24,7 @@
         font-size: 20px;
         font-weight: 400;
         line-height: 24px;
+        width: 592px;
     }
 
     &__list {
@@ -31,7 +32,7 @@
         justify-content: center;
         gap: 55px 32px;
         flex-wrap: wrap;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
 
     &__item {
@@ -56,8 +57,8 @@
             line-height: 24px;
             background-color: $programCounter;
             border-radius: 50px;
-            width: 131px; //with 120 поменять после шрифтов
-            padding: 11px 33px;
+            width: 120px;
+            padding: 11px 30px;
         }
     };
 
@@ -113,6 +114,6 @@
         background-size: 16px 16px;
         background-repeat: no-repeat;
         padding-left: 22px;
-        margin-bottom: 4px;
+        margin-bottom: 10px;
     }
 }

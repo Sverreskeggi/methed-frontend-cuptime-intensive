@@ -1,0 +1,42 @@
+.certificate {
+    background-color: $headerItemBG;
+    height: 603px;
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        padding-top: 30px;
+        margin-bottom: 52px;
+    }
+
+    &__subtitle {
+
+        &-text {
+            padding-top: 24px;
+            display: block;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    &__button {
+        width: 256px;
+        height: 64px;
+    }
+
+    &__image {
+        
+        &-photo {
+            width: 850px;
+        }
+    }
+}
