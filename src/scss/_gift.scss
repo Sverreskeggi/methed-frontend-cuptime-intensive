@@ -1,0 +1,18 @@
+.gift {
+    
+    &__wrapper {
+        display: flex;
+        gap: 75px;
+        align-items: center;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__button {
+        width: 320px;
+    }
+}

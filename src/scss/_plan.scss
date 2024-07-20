@@ -1,0 +1,65 @@
+.plan {
+    padding-top: 0;
+
+    &__wrapper {
+        padding: 80px 60px;
+        border-radius: 32px;
+        background-color: $planBG;
+    }
+
+    &__title {
+        color: $white;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 44px;
+        margin-bottom: 32px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px 9px;
+        margin-bottom: 50px;
+
+        &-item {
+            gap: 9px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        &-icon {
+            display: block;
+            // height: 24px;
+            // width: 24px; разобраться с размером иконок
+        }
+
+        &-text {
+            color: $white;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    &__promo {
+        display: flex;
+        gap: 16px;
+        align-items: baseline;
+        margin-bottom: 20px;
+
+        &-price {
+            text-decoration: line-through;
+            color: $planPrice;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 30.8px;
+        }
+        
+        &-text {
+            color: $planText;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 44px;
+        }
+    }
+}
