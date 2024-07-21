@@ -14,5 +14,13 @@
         background-repeat: no-repeat;
         width: 1320px;//на  
         height: 780px;//время
+
+        @include laptop {
+            background-image: url(../img/scroll-pic768.png);
+            width: auto;//на 
+            height: 546px;//время
+        }
     }
-}
+    }
+
+    
