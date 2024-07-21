@@ -40,26 +40,4 @@
             line-height: 24px;
         }
     }
-
-    &__promo {
-        display: flex;
-        gap: 16px;
-        align-items: baseline;
-        margin-bottom: 20px;
-
-        &-price {
-            text-decoration: line-through;
-            color: $planPrice;
-            font-size: 28px;
-            font-weight: 400;
-            line-height: 30.8px;
-        }
-        
-        &-text {
-            color: $planText;
-            font-size: 40px;
-            font-weight: 700;
-            line-height: 44px;
-        }
-    }
 }

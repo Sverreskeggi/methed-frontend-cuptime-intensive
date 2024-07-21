@@ -76,6 +76,28 @@ iframe {
   margin: 0 auto;
 }
 
+.promo {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  margin-bottom: 20px;
+
+  &-price {
+      text-decoration: line-through;
+      color: $planPrice;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 30.8px;
+  }
+  
+  &-text {
+      color: $planText;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 44px;
+  }
+}
+
 .title {
   font-size: 60px;
   font-weight: 400;
@@ -130,20 +152,20 @@ iframe {
 }
 
 
-@include tablet {
-  body {
-    // background-color: red;
-  }
-}
+// @include tablet {
+//   body {
+//     background-color: red;
+//   }
+// }
 
-@include laptop {
-  body {
-    // background-color: green;
-  }
-}
+// @include laptop {
+//   body {
+//     background-color: green;
+//   }
+// }
 
-@include desktop {
-  body {
-    // background-color: blue;
-  }
-}
+// @include desktop {
+//   body {
+//     background-color: blue;
+//   }
+// }
