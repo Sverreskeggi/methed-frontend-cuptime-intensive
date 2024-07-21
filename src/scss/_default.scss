@@ -105,14 +105,28 @@ iframe {
   margin-bottom: 24px;
   position: relative;
 
+  @include laptop {
+    font-size: 48px;
+    line-height: 80%;
+  }
+
   &-subtext {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 52px;
+
+    @include laptop {
+      
+    }
   }
 
   &-text {
+
+    @include laptop {
+      margin-bottom: 16px;
+    }
+
     &_subtitle {
         display: block;
     }
@@ -127,6 +141,18 @@ iframe {
         border-radius: 64px;
         vertical-align: middle;
         background: linear-gradient(244.87deg, rgba(250, 209, 38, 0.996) 10.67%, #FF544F 173.75%);
+        
+        @include laptop {
+          height: 47px;
+          font-size: 20px;
+          line-height: 110%;
+        }
+
+        @include tablet {
+          height: 38px;
+          font-size: 16px;
+          line-height: 110%;
+        }  
     }
 
     &_orange {
@@ -150,22 +176,3 @@ iframe {
     border-color: transparent;
   }
 }
-
-
-// @include tablet {
-//   body {
-//     background-color: red;
-//   }
-// }
-
-// @include laptop {
-//   body {
-//     background-color: green;
-//   }
-// }
-
-// @include desktop {
-//   body {
-//     background-color: blue;
-//   }
-// }

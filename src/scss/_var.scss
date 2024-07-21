@@ -26,8 +26,8 @@ $black: #292121;
 $white: #FFF;
 
 $tablet: 768px;
-$laptop: 769px;
-$desktop: 1025px;
+$laptop: 1024px;
+$desktop: 1624px;
 
 @mixin tablet {
   @media (max-width: #{$tablet}) {
@@ -36,13 +36,13 @@ $desktop: 1025px;
 }
 
 @mixin laptop {
-  @media (min-width: #{$laptop}) {
+  @media (max-width: #{$laptop}) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media (min-width: #{$desktop}) {
+  @media (max-width: #{$desktop}) {
     @content;
   }
 }
