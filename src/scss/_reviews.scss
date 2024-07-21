@@ -1,8 +1,8 @@
 .reviews {
-    padding: 70px 0;
+    padding: 70px 0 140px 0;
 
     &__title {
-        margin-bottom: 80px;
+        // margin-bottom: 80px;
     }
 
     &__slider {
@@ -11,7 +11,7 @@
         &-list {
             display: flex;
             gap: 70px;
-            padding: 0 39px;
+            padding: 55px 39px 0 39px;
         }
 
         &-item {
